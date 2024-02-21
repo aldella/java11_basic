@@ -42,9 +42,7 @@ public class Operation7 {
 		j=30;
 		j >>>= 2;
 		System.out.println(j); // 동일하나, 차이점은 >>=는 부호비트와 동일하게 채우지만, >>>=는 무조건 0으로 채운다
-		
-		int A = 0b10111111111111111111111111111111;
-		System.out.println(A);
+
 		
 	}
 
