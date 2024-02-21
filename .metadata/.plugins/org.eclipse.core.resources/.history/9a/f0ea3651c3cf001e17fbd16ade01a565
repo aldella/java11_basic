@@ -1,0 +1,19 @@
+package org.kh.java;
+
+public class Operation4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//증감연산 : ++. -- : 전위연산, 후위연산이 있음
+		int a = 10;
+		int b = 10;
+		float c = 2.0f;
+		System.out.println("전위증가연산 : "+(++a));
+		System.out.println("후위증가연산 : "+(b++));
+		
+		System.out.println(a + " " + b);
+		System.out.println((int)(a+c));
+		
+	}
+
+}

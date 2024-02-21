@@ -1,0 +1,11 @@
+package org.kh.java;
+
+public class Variable3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int bin = 0b10111; //2진수 데이터 입력시 해당 숫자앞에 0b로 시작(0b를 추가한다고 보면됨)
+		System.out.println("bin="+bin);
+	}
+
+}

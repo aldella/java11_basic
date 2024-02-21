@@ -1,0 +1,13 @@
+package org.kh.java;
+
+public class Operation2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		산술연산(Arithmetic) <=> 논리연산(Logical)
+//		+ - * / %    : 이 5가지가 끝
+		int a = 5^3;
+		System.out.println(a);
+	}
+
+}

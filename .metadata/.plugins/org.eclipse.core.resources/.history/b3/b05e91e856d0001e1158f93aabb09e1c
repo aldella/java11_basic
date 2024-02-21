@@ -1,0 +1,18 @@
+package org.kh.java;
+
+public class Operation7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		대입 연산자2 : 연산 후에 대입하는 연산자 &= != >>= <<= >>>= (<<<=는 없음) ^= 
+		int x = 0b01101;
+		int y = 0b01011;
+		System.out.println(Integer.toBinaryString(x));
+		System.out.println(Integer.toBinaryString(y));
+		System.out.println(Integer.toBinaryString(x&y));
+		System.out.println(Integer.toBinaryString(x|y));
+		System.out.println(Integer.toBinaryString(x^y)); //XOR : 배타적논리합, 서로 다를 때에만 1을 표시. 그 외의 경우 0
+		System.out.println(Integer.toBinaryString(~x)); //NOT
+	}
+
+}

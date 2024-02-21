@@ -1,0 +1,10 @@
+package org.kh.java;
+
+public class hello {
+
+	public static void main(String[] args) {
+		System.out.println("Hello \njava");
+		System.out.println("alksdfjlkf");
+	}
+
+}

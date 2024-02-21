@@ -1,0 +1,27 @@
+package org.kh.java;
+
+public class Variable7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name = "최태영";
+		int ageInt = 26;
+		float height_float = 171.1f;
+		boolean pass = true;
+		double weight_double = 55.5;
+		
+		System.out.println("name : "+name.getClass().getName());
+//		System.out.println("age : "+ageInt.getClass().getName());
+//		System.out.println("height : "+height_float.getClass().getName());
+//		System.out.println("weight : "+weight_double.getClass().getName());
+		
+		Integer ageInteger = 26;
+		Float height_Float = 171.1f;
+		Double weight_Double = 55.5;
+		
+		System.out.println("age : "+ageInteger.getClass().getName());
+		System.out.println("height : "+height_Float.getClass().getName());
+		System.out.println("weight : "+weight_Double.getClass().getName());
+	}
+
+}
