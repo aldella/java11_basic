@@ -1,17 +1,12 @@
 package sec.practice;
 
 public class Oracle implements Database{
-	private String url;
-	private String port;
-	private String id;
-	private String pw;
-//	Connection;
-//	PreparedStatement;
-//	ResultSet;
-	private String tbname;
-	private String condition;
-	private int field1;
-	private int value1;
+	final static String DRIVER = "oracle.jdbc.driver.OracleDriver";
+	final static String URL = "jdbc:oracle:thin:@localhost";
+	final static int PORT = 1521;
+	final static String PID = "xe";
+	final static String ID = "system";
+	final static String PW = "1234";
 	
 	@Override
 	public void connect(String url, String port, String id, String pw) {
@@ -56,75 +51,6 @@ public class Oracle implements Database{
 		System.out.println("delete from " + tbname + " " + condition);
 	}
 	
-	
-	
-	//////////////////getter setter/////////////////////////////
-	
-
-	public String getUrl() {
-		return url;
-	}
-
-	public void setUrl(String url) {
-		this.url = url;
-	}
-
-	public String getPort() {
-		return port;
-	}
-
-	public void setPort(String port) {
-		this.port = port;
-	}
-
-	public String getId() {
-		return id;
-	}
-
-	public void setId(String id) {
-		this.id = id;
-	}
-
-	public String getPw() {
-		return pw;
-	}
-
-	public void setPw(String pw) {
-		this.pw = pw;
-	}
-
-	public String getTbname() {
-		return tbname;
-	}
-
-	public void setTbname(String tbname) {
-		this.tbname = tbname;
-	}
-
-	public String getCondition() {
-		return condition;
-	}
-
-	public void setCondition(String condition) {
-		this.condition = condition;
-	}
-
-	public int getField1() {
-		return field1;
-	}
-
-	public void setField1(int field1) {
-		this.field1 = field1;
-	}
-
-	public int getValue1() {
-		return value1;
-	}
-
-	public void setValue1(int value1) {
-		this.value1 = value1;
-	}
-
 	
 	
 }
