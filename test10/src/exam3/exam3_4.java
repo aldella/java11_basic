@@ -26,6 +26,9 @@ public class exam3_4 {
 		{
 			System.out.println(dd.showDogInfo());
 		}
+		
+		String[] memArr= {"1","2","3","4","5"};
+		System.out.println(memArr.length);
 	}
 
 }

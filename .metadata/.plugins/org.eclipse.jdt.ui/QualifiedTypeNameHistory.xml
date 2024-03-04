@@ -4,8 +4,10 @@
     <fullyQualifiedTypeName name="src3.People"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="sec2.Animal"/>
     <fullyQualifiedTypeName name="sec2.Mammal"/>
     <fullyQualifiedTypeName name="sec2.Birds"/>
+    <fullyQualifiedTypeName name="exam2.BeoulDaBang"/>
+    <fullyQualifiedTypeName name="exam2.Human"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
